@@ -1,3 +1,4 @@
+``` log
 java -Xmx1g -XX:+UseSerialGC -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis
 正在执行...
 2022-03-12T22:34:56.683-0800: [GC (Allocation Failure) 2022-03-12T22:34:56.683-0800: [DefNew: 69759K->8703K(78656K), 0.0175559 secs] 69759K->27200K(253440K), 0.0175939 secs] [Times: user=0.01 sys=0.01, real=0.02 secs]
@@ -27,3 +28,6 @@ Heap
    the space 545984K,  68% used [0x0000000795550000, 0x00000007ac0a95d0, 0x00000007ac0a9600, 0x00000007b6a80000)
  Metaspace       used 2567K, capacity 4486K, committed 4864K, reserved 1056768K
   class space    used 276K, capacity 386K, committed 512K, reserved 1048576K
+ 
+```
+
