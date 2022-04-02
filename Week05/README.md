@@ -25,3 +25,46 @@
 总结一下，单例的各种写法，比较它们的优劣。
 ### 解答说明
 https://github.com/Templar0911/javacourse/tree/main/Week05/spring01/src/main/java/com/templar/javatraining/singleton
+
+## 第六题（选做）
+### 要求
+maven/spring 的 profile 机制，都有什么用法？
+### 解答
+#### 一、web.xml
+``` xml
+<context-param>
+    <param-name>spring.profiles.active</param-name>
+    <param-value>dev</param-value>
+</context-param>
+```
+
+#### 二、JVM启动参数
+`-Dspring.profiles.active`
+
+#### 三、application.properties
+`spring.profiles.active`
+
+#### 四、Maven
+``` xml
+<profiles>
+    <profile>
+        <id>dev</id>
+        <activation>
+            <activeByDefault>true</activeByDefault>
+        </activation>
+        <properties>
+            <env>dev</env>
+        </properties>
+    </profile>
+    <profile>
+        <id>prod</id>
+        <properties>
+            <env>prod</env>
+        </properties>
+    </profile>
+</profiles>
+```
+
+`mvn clean install -Pdev`
+
+`mvn clean install -Pprod`
