@@ -19,3 +19,9 @@
 ### 解答说明
 - 实现代码：https://github.com/Templar0911/javacourse/tree/main/Week05/spring01/src/main/java/com/templar/javatraining/xml
 - 测试用例：https://github.com/Templar0911/javacourse/blob/main/Week05/spring01/src/test/java/XmlTest.java
+
+## 第五题（选做）
+### 要求
+总结一下，单例的各种写法，比较它们的优劣。
+### 解答说明
+https://github.com/Templar0911/javacourse/tree/main/Week05/spring01/src/main/java/com/templar/javatraining/singleton
