@@ -1,0 +1,20 @@
+school:
+  enabled: true
+  klass-list:
+    -
+      student-list:
+        -
+          id: 100
+          name: A
+        -
+          id: 101
+          name: B
+    -
+      student-list:
+        -
+          id: 200
+          name: C
+        -
+          id: 201
+          name: D
+

@@ -68,3 +68,11 @@ maven/spring 的 profile 机制，都有什么用法？
 `mvn clean install -Pdev`
 
 `mvn clean install -Pprod`
+
+## 第八题（必做）
+### 要求
+给前面课程提供的 Student/Klass/School 实现自动配置和 Starter。
+### 解答说明
+在`school-spring-boot-starter`工程实现了简单的starter，`mvn clean install`之后导入工程`springboot01`的pom中。
+- 实现代码：https://github.com/Templar0911/javacourse/tree/main/Week05/school-spring-boot-starter
+- 测试用例：https://github.com/Templar0911/javacourse/tree/main/Week05/springboot01/src/test/java/PropTest.java
