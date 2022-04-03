@@ -76,3 +76,12 @@ maven/spring 的 profile 机制，都有什么用法？
 在`school-spring-boot-starter`工程实现了简单的starter，`mvn clean install`之后导入工程`springboot01`的pom中。
 - 实现代码：https://github.com/Templar0911/javacourse/tree/main/Week05/school-spring-boot-starter
 - 测试用例：https://github.com/Templar0911/javacourse/blob/main/Week05/springboot01/src/test/java/com/templar/javatraining/SchoolStarterTest.java
+
+## 第十题（必做）
+### 要求
+研究一下 JDBC 接口和数据库连接池，掌握它们的设计和用法：
+  1. 使用 JDBC 原生接口，实现数据库的增删改查操作；
+  2. 使用事务，PrepareStatement 方式，批处理方式，改进上述操作；
+  3. 配置 Hikari 连接池，改进上述操作。提交代码到 GitHub。
+### 解答说明
+- 测试用例：https://github.com/Templar0911/javacourse/blob/main/Week05/springboot01/src/test/java/com/templar/javatraining/JdbcTest.java

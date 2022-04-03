@@ -18,3 +18,12 @@ school:
           id: 201
           name: BCLASS-201
 
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/user
+    hikari:
+      driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      password: 123456
+      maximum-pool-size: 10
+      minimum-idle: 2
